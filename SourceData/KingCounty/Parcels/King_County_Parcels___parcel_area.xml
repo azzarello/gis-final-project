@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20061101</pubdate>
+                <title>King County Parcels / parcel_area</title>
+                <edition>1.0</edition>
+                <geoform>vector digital data</geoform>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=248349fd1c4440a3b1f46c079bb69128</onlink>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=c097837984fc4fbda86f08bb2d3f497e</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/Metadata.aspx?Layer=parcel</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterTermsAndConditions.pdf</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterHelpUsingKCOpenData.pdf</onlink>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=c1236730f9fa455db35390a9a194d8c8</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This layer represents the tax parcels in King County. This layer also includes place-holder polygons which do not represent tax parcels but are included to identify platted and unplatted land descriptions. The layer includes stacked polygon geometry for undivided interest and vertical parcels. King County parcel numbers may include leading zeros in PIN, Major or Minor. The data is created for Assessment purposes and is not guaranteed to represent accurate measurements or to reflect salability or buildability of a tax parcel. These tax parcel boundaries represent general location only, and they should not be considered or used as the exact legal parcel boundary location. Do not use for survey purposes.</abstract>
+            <purpose>The purpose of the tax parcel layer is to assist users in locating property within King County. The layer serves as the parcel framework data layer for King County.</purpose>
+            <supplinf>Rights of Way (ROW) polygons are not included in the Tax Parcel layer. ROWs can be found in a separate layer called ROW. Items PIN, MAJOR, MINOR, are present in both the geodatabase feature class and shapefile. The fields are described as a text fields because PIN, MAJOR and MINOR may have leading zeros. PIN = MAJOR + MINOR. When joining to Assessor tabular data the user may need to manipulate the tabular data to create PIN from Major + Minor fields. PIN is not unique through time and may be reused when property is segregated. Placeholder polygons that don't represent tax parcels are coded with MINOR as follows: HYDR = Water, UNKN = Unknown , TRCT or Txxx = Tract with or without undivided interest, PUBL = Public ownership no tax parcel number. Condominiums are represented by a single polygon for the complex. MINORs for condo complexes are '0000'. Individual condo units are stored in the Assessor tabular data files and can be joined to the parcel layer by the MAJOR number field. Undivided Interest and Vertical parcels may be represented by stacked polygon geometry. One example of stacked polygon geometry for an Undivided Interest can be found in PIN = 4088801605. Multiple polygons exist at this location each with unique PINs.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20121226</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date and posted weekly.</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Weekly</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-122.550394</westbc>
+                <eastbc>-121.084384</eastbc>
+                <northbc>47.788447</northbc>
+                <southbc>47.07206</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>property_OpenData</themekey>
+                <themekey>tax</themekey>
+                <themekey>parcel</themekey>
+                <themekey>major</themekey>
+                <themekey>minor</themekey>
+                <themekey>pin</themekey>
+                <themekey>parcel_area</themekey>
+                <themekey>kingcounty_opendata</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>King County</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County Assessor</cntorg>
+                    <cntper>Christie Most</cntper>
+                </cntorgp>
+                <cntpos>GIS Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>unknown</addrtype>
+                    <address>500 4th Ave ADM-AS-0709</address>
+                    <city>Seattle</city>
+                    <state>Wa</state>
+                    <postal>98104</postal>
+                </cntaddr>
+                <cntvoice>206-263-2284</cntvoice>
+                <cntemail>christie.most@kingcounty.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <browse>
+            <browsen>http://www5.kingcounty.gov/sdc/DataImages/parcel.jpg</browsen>
+        </browse>
+        <native>Esri ArcGIS 10.1.1.3143</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>PLIBRARY.PROPERTY.xxxx_21360245</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MAJOR</attrlabl>
+                <attrdef>First six characters of the parcel identification number (PIN).</attrdef>
+                <attrdefs>King County</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Six character code derived from PLSS or plat number.  eg 092503  for section 9 in township 25, range 3.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MINOR</attrlabl>
+                <attrdef>Last four characters of the parcel identification number (PIN).</attrdef>
+                <attrdefs>King County</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>ROAD</edomv>
+                        						
+                        <edomvd>Special minor number for right of way.  Previously 5555.</edomvd>
+                        						
+                        <edomvds>King County.</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PIN</attrlabl>
+                <attrdef>Parcel Identification Number</attrdef>
+                <attrdefs>King County</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Ten character concatenation of the Major and Minor field.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape.area</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.len</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <resdesc>/plibrary2/property/shapes/polygon/parcel.shp</resdesc>
+        <distliab>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>ESRI Shapefile</formname>
+                </digtinfo>
+            </digform>
+            <fees>Contact KCGIS Client Services for the cost of reproduction - http://www.kingcounty.gov/operations/GIS/GISData/GISDataDistribution.aspx</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20160408</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County Assessor's Office</cntorg>
+                    <cntper>Christ Most</cntper>
+                </cntorgp>
+                <cntvoice>(206) 263-2284</cntvoice>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

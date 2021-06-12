@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xdt="http://www.w3.org/2005/xpath-datatypes">
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Rich Lee, WSDOT, Data Analyst</origin>
+<pubdate>20180502</pubdate>
+<title>Park And Rides, WSDOT</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This file contains information about park and ride lots across Washington State. The data includes information on park and ride lot locations and number of parking stalls. WSDOT cannot guarantee the accuracy of this data because most park and ride lots are operated by other agencies or jurisdictions.  Refer to field PublishDate  to determine date of data.</abstract>
+<purpose>Park and ride locations and capacities for the State of Washington.</purpose>
+</descript>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-124.455606</westbc>
+<eastbc>-117.021416</eastbc>
+<northbc>48.956015</northbc>
+<southbc>45.535738</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>PnR</themekey>
+<themekey>Park and Rides</themekey>
+<themekey>P&amp;R</themekey>
+<themekey>WSDOT</themekey>
+<themekey>Transit</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>Washington</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>This data set is used as a reference layer for geographic information systems at the Washington State Department of Transportation.Park and ride lot street address may be approximated. Only park and rides that are reported to WSDOT are included, some might be missing. All missing Park and Rides are unintentional, none have been excluded from this data set. The Washington State Department of Transportation shall not be liable for any activity involving this data with regard to lost profits or savings or any other consequential damages; or the fitness for use of the data for a particular purpose; or the installation of the data, its use, or the results obtained.</useconst>
+<datacred>Washington State Department of Transportation</datacred>
+<native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+</idinfo>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>726</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<lambertc>
+<stdparll>45.83333333333334</stdparll>
+<stdparll>47.33333333333334</stdparll>
+<longcm>-120.5</longcm>
+<latprjo>45.33333333333334</latprjo>
+<feast>1640416.666666667</feast>
+<fnorth>0.0</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.0003280833333333334</absres>
+<ordres>0.0003280833333333334</ordres>
+</coordrep>
+<plandu>foot_us</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>D North American 1983 HARN</horizdn>
+<ellips>GRS 1980</ellips>
+<semiaxis>6378137.0</semiaxis>
+<denflat>298.257222101</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp></enttyp>
+<attr>
+<attrlabl>Address</attrlabl>
+<attrdef>Street address of the Park and Ride</attrdef>
+</attr>
+<attr>
+<attrlabl>Approx_Numb_Spaces</attrlabl>
+<attrdef>Vehicle capacity of the park and ride.</attrdef>
+</attr>
+<attr>
+<attrlabl>CityName</attrlabl>
+<attrdef>The common name of a primarily urban political unit having corporate status and usually powers of self-government established by state charter. City Names are stewarded by Washington State's Office of Financial Management. City Names are the equivalent of Place Names of Incorporated Cities in the US Census Tiger Data Set</attrdef>
+<attrdefs>WSDOT Application - DOTS</attrdefs>
+</attr>
+<attr>
+<attrlabl>CountyName</attrlabl>
+<attrdef>The Name of the County as ratified by County constituents in a general election and approved by the Washington State Legislature.</attrdef>
+<attrdefs>WSDOT Application - DOTS</attrdefs>
+</attr>
+<attr>
+<attrlabl>Lot_Name</attrlabl>
+<attrdef>Name of the Park and Ride Lot</attrdef>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>Esri</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Street_Location</attrlabl>
+<attrdef>Description of the location of the Park and Ride</attrdef>
+</attr>
+<attr>
+<attrlabl>PublishDate</attrlabl>
+<attrdef>The date that the data or featureclass being published was provided for publication.</attrdef>
+</attr>
+<attr>
+<attrlabl>ZIPcode</attrlabl>
+<attrdef>ZIP Code</attrdef>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>Washington State Department of Transportation, Office of Information Technology</cntorg>
+<cntper>Jordyn Mitchell</cntper>
+</cntorgp>
+<cntpos>GIS Database Administrator</cntpos>
+<cntaddr>
+<addrtype>mailing</addrtype>
+<address>PO Box 47430</address>
+<city>Olympia</city>
+<state>WA</state>
+<postal>98504-7430</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>360-705-7645</cntvoice>
+</cntinfo>
+</distrib>
+<distliab>The Washington State Department of Transportation shall not be liable for any activity involving this data with regard to lost profits or savings or any other consequential damages; or the fitness for use of the data for a particular purpose; or the installation of the data, its use, or the results obtained.</distliab>
+<stdorder>
+<fees>none</fees>
+<ordering>Download individual data sets from http://www.wsdot.wa.gov/mapsdata/geodatacatalog/default.htm</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20180504</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>WSDOT</cntorg>
+<cntper>Rich Lee</cntper>
+</cntorgp>
+<cntpos>Data Analyst</cntpos>
+<cntvoice>206-464-1207</cntvoice>
+<cntemail>leerich@wsdot.wa.gov</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
